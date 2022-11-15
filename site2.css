@@ -18,7 +18,7 @@ div{
     flex-direction: row;
     background-color: rgb(113, 221, 255);
     padding-right: 5%;
-
+    
 }
 h1{
     padding-left: 1%;
@@ -75,6 +75,13 @@ section{
     padding: 0.3%;
     margin-left: 16%;
     font-size: x-large;
+}
+footer{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 0;
+    padding: 0;
+    background-color:rgb(8, 99, 151);
 }
 @media all and (width >4500px){
     h1{
