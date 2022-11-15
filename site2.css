@@ -95,7 +95,7 @@ section{
     }
     .c{
         color:rgb(255, 45, 185);
-        font-size: 780%;
+        font-size: 1150%;
         font-family:Georgia, 'Times New Roman', Times, serif;
         padding-left: 5.5%;
         padding-top: 5%;
@@ -109,14 +109,14 @@ section{
         padding-left: 15%;
         padding-bottom: 6px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 220%;
+        font-size: 270%;
     }
     .a{
         padding-top: 90px;
-        padding-left: 15%;
+        padding-left: 11%;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         padding-bottom: 6px;
-        font-size: 220%;
+        font-size: 270%;
     }
     .d{
         border: solid;
