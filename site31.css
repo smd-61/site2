@@ -66,19 +66,32 @@ section{
     
 }
 .q{
-    width: 10%;
-    background-color: rgb(24, 24, 94);
-    padding-bottom: 15%;
-
+    width: 15%;
+    background-color: rgb(24, 24, 94,0.5);
+    padding-bottom: 12%;
+    margin-left: 2%;
+    margin-right: 7%;
 }
 .r{
-    background-color: rgb(24, 24, 94);
-    width: 10%;
-    padding-bottom: 15%;
+    background-color: rgb(24, 24, 94,0.5);
+    width: 15%;
+    padding-bottom: 12%;
+    
+}
 p{
     color: white;
     text-align: center;
 }
+.u{
+    
+}
+.q:hover{
+    transform: rotateX(180);
+    color: aqua;
+    
+    
+}
+
 
 
 

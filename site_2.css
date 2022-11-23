@@ -58,7 +58,42 @@ section{
     flex-wrap: wrap;
     
 }
-
+.r{
+    flex-direction: row;
+    width: 30%;
+    margin-right: 2%;
+    margin-left: 1%;
+    padding-bottom: 30%;
+    color: aliceblue;
+    border: solid;
+    border-radius: 5px;
+    background-image: url(bb2.jpeg);
+    background-size: 102.5%;
+}
+.q{
+    flex-direction: row;
+    width: 30%;
+    margin-right: 2%;
+    margin-left: 1.5%;
+    padding-bottom: 30%;
+    color: aliceblue;
+    border: solid;
+    border-radius: 5px;
+    background-image: url(DD.jpg);
+    background-size: 102.5%;
+}
+#a{
+    background-image: url(cc3.jpg);
+    background-size: 100%;
+    flex-direction: row;
+    width: 30%;
+    margin-right: 1%;
+    margin-left: 1%;
+    padding-bottom: 30%;
+    color: aliceblue;
+    border: solid;
+    border-radius: 5px;
+}
 .c{
     margin-left: 47.5%;
     color: white;
@@ -86,7 +121,43 @@ section{
     font-size: 50px;
     padding-left: 35%;
 }
+.q:hover {
+    transition: 0.5s;
+    flex-direction: row;
+    width: 32%;
+    margin-right: 1%;
+    margin-left: 0.5%;
+    padding-bottom: 30%;
+    color: aliceblue;
+    border: solid;
+    border-radius: 5px;
+}
 
+
+.r:hover {
+    transition: 0.5s;
+    flex-direction: row;
+    width: 32%;
+    margin-right: 1%;
+    margin-left: 0%;
+    padding-bottom: 30%;
+    color: aliceblue;
+    border: solid;
+    border-radius: 5px;
+}
+#a:hover{
+    transition: 0.5s;
+    background-image: url(cc3.jpg);
+    background-size: 100%;
+    flex-direction: row;
+    width: 32%;
+    margin-right: 0%;
+    margin-left: 0%;
+    padding-bottom: 30%;
+    color: aliceblue;
+    border: solid;
+    border-radius: 5px;
+}
 @media all and (width >4500px){
     .o{
         padding-left: 1%;
