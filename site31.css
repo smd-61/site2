@@ -58,6 +58,7 @@ section{
     flex-wrap: wrap;
     flex-direction: column;
     background-image: url("rr2.jpg");
+    background-repeat: no-repeat;
     padding-top: 3%;
     background-size: 100%;
     padding-bottom: 12%;
@@ -70,41 +71,43 @@ section{
     
 }
 .q{
-    width: 15%;
-    background-color: rgb(202, 183, 158);
+    width: 35%;
     padding-bottom: 8%;
     padding-top: 2%;
-    margin-left: 2%;
+    margin-right: 3.5%;
+    margin-left: 1%;
     font-size: 75px;
-    font-family:'Times New Roman', Times, serif
+    font-family:'Times New Roman', Times, serif;
+    border-radius: ;
     
 }
 .w{
     display: flex;
-    
+    width: 100%;
+    margin-right: 0;
+    padding-left: 5%;
 }
-.r{
-    width: 15%;
-    background-color: rgb(202, 183, 158);
-    padding-bottom: 8%;
-    padding-top: 2%;
-    margin-left: 2%;
-    font-size: 75px;
-    font-family:'Times New Roman', Times, serif
-    
-}
+
 p{
     color: white;
     text-align: center;
+    background-color: rgb(202, 183, 158);
+    font-family:'Times New Roman', Times, serif;
+    padding-bottom: 50%;
+    padding-top: 30%;
+    padding-right: 0%;
+    margin-left: 2%;
+    font-size: 45px;
+    border-radius: 10px;
 }
 
-.flip-container {
+.q {
 	perspective: 1000px;
 }
-	.flip-container:hover .flipper, .flip-container.hover .flipper {
+	.q:hover .flipper, .q.hover .flipper {
 		transform: rotateY(180deg);
 	}
-.flip-container, .front, .back {
+.q, .front, .back {
 	width: 320px;
 	height: 480px;
 }
