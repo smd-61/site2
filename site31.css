@@ -6,9 +6,10 @@ body{
     width: 92.5%;
     margin-right: 4%;
     margin-left: 3%;
+    padding-bottom: 100%;
     background-color: rgb(50, 50, 50); 
-    background-image: url("ddd.jpg");
-    background-size: 100%;
+    
+    
 }
 h1{
     padding-left: 1%;
@@ -41,57 +42,91 @@ nav{
     padding-left: 22%;
     
 }
-div{
+.g{
     margin-top: 1%;
     display: flex;
     flex-wrap: nowrap;
     flex-basis: 100%;
     flex-direction: row;
-    background-color:rgb(0, 143, 187);
+    background-color:rgb(202, 183, 158);
     padding-right: 5%;
     
 }
 section{
-    
-    margin-top: 5%;
     display: flex;
     flex-basis: 90%;
     flex-wrap: wrap;
-    
+    flex-direction: column;
+    background-image: url("rr2.jpg");
+    padding-top: 3%;
+    background-size: 100%;
+    padding-bottom: 12%;
 }
 .e{
-    color: white;
+    color: black;
     padding-top: 50px;
+    padding-bottom: 100px;
     font-size: 50px;
     
 }
 .q{
     width: 15%;
-    background-color: rgb(24, 24, 94,0.5);
-    padding-bottom: 12%;
+    background-color: rgb(202, 183, 158);
+    padding-bottom: 8%;
+    padding-top: 2%;
     margin-left: 2%;
-    margin-right: 7%;
+    font-size: 75px;
+    font-family:'Times New Roman', Times, serif
+    
+}
+.w{
+    display: flex;
+    
 }
 .r{
-    background-color: rgb(24, 24, 94,0.5);
     width: 15%;
-    padding-bottom: 12%;
+    background-color: rgb(202, 183, 158);
+    padding-bottom: 8%;
+    padding-top: 2%;
+    margin-left: 2%;
+    font-size: 75px;
+    font-family:'Times New Roman', Times, serif
     
 }
 p{
     color: white;
     text-align: center;
 }
-.u{
-    
-}
-.q:hover{
-    transform: rotateX(180);
-    color: aqua;
-    
-    
-}
 
+.flip-container {
+	perspective: 1000px;
+}
+	.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+	}
+.flip-container, .front, .back {
+	width: 320px;
+	height: 480px;
+}
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+.front, .back {
+	backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.front {
+	z-index: 2;
+	transform: rotateY(0deg);
+}
+.back {
+	transform: rotateY(180deg);
+}
 
 
 
@@ -236,7 +271,7 @@ p{
         margin-top: 0.01%;
         text-align: center;
     }
-    div{
+    .g{
         display: flex;
         flex-direction:column;
 
@@ -271,7 +306,7 @@ p{
         margin-top: 0.01%;
         text-align: center;
     }
-    div{
+    .g{
         display: flex;
         flex-direction:column;
     }
@@ -286,7 +321,7 @@ p{
         text-align: center;
         font-size: 70%;
     }
-    div{
+    .g{
         display: flex;
         flex-direction:column;
     }
@@ -315,7 +350,7 @@ p{
         margin-top: 0.01%;
         text-align: center;
     }
-    div{
+    .g{
         display: flex;
         flex-direction:column;
     }
@@ -342,7 +377,7 @@ p{
         text-align: center;
         font-size: 70%;
     }
-    div{
+    .g{
         display: flex;
         flex-direction:column;
     }
