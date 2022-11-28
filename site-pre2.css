@@ -88,7 +88,6 @@ nav{
     color: black;
     font-size: 30px;
     font-weight: 900;
-    
 }
 img{
     display: flex;
@@ -316,7 +315,6 @@ p{
     aside{
         display: none;
     }
-    
     p{
         text-align: center;
         padding: 2%;
@@ -408,7 +406,18 @@ p{
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         padding-bottom: 6px;
     }
-    
+    .e{
+        display: flex;
+        flex-basis: 100% ;
+        padding-left: 27%;
+        margin: 0;
+        margin-top: 3%;
+        margin-left: 1.5%;
+        margin-right: 0%;
+        color: black;
+        font-size: 30px;
+        font-weight: 900;
+    }
 }
 @media all and (width <400px){
     .o{
