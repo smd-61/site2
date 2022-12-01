@@ -9,11 +9,6 @@ body{
     background-color: rgb(168, 168, 168); 
     
 }
-img{
-    margin-right: 5px;
-    margin-left: 5px;
-    padding-bottom: 5px;
-}
 .o{
     padding-left: 1%;
     display:inline-block;
@@ -30,15 +25,10 @@ nav{
     padding-left: 22%;
     
 }
-.g{
-    margin-top: 1%;
-    display: flex;
-    flex-wrap: nowrap;
-    flex-basis: 100%;
-    flex-direction: row;
-    background-color:rgb(202, 183, 158);
-    padding-right: 5%;
-    
+img{
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-bottom: 5px;
 }
 .b{
     padding-top: 35px;
@@ -54,6 +44,17 @@ nav{
     padding-left: 7.5%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.g{
+    margin-top: 1%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-basis: 100%;
+    flex-direction: row;
+    background-color:rgb(202, 183, 158);
+    padding-right: 5%;
+    
+}
+
 #q{
     flex-basis: 60%;
     background-color: beige;
